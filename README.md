@@ -19,20 +19,15 @@ A workout tracker to create and track daily routines. Log multiple exercises for
 ## Installation
  
 1. Download and install [Node.js](http://nodejs.org/) (that will install npm as well)
-3. Install the dependancies.<br />
+2. Install the dependancies.<br />
    ```
-    dotenv,
-    express,
-    mongojs,
-    mongoose,
-    morgan,
-    nodemon
+   npm install
    ```
-4. To use the seed file.
+3. To use the seed file.
    ```
    npm run seed
    ```
-5. You are done for the setup, run the app using
+4. You are done for the setup, run the app using
    ```
    npm run watch
    ```
